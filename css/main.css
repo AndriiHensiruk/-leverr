@@ -1,0 +1,32 @@
+.game{
+	width: 400px;
+	height: 254px;
+	background-image: url(../img/kombat.jpg);
+	margin: auto;
+}
+#ft1{
+	width: 130px;
+	height: 120px;
+	background-image: url(../img/kan.png);
+	position: relative;
+	top: 130px;
+	animation: ft1Mov 2s infinite linear
+	}
+@keyframes ft1Mov{
+	0%{
+		left: 100px;
+	}
+}
+#ft2{
+	width: 130px;
+	height: 120px;
+	background-image: url(../img/ken.png);
+	position: relative;
+	left: 254px;
+	animation: ft2Mov 2s infinite linear
+	}
+@keyframes ft2Mov{
+	100%{
+		left: 100px;
+	   }
+    }
